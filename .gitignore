@@ -1,0 +1,34 @@
+# Credentials and secrets: never in this repo, under any name
+.env
+.env.*
+*.env
+*.pem
+*.key
+*.p12
+*.pfx
+*credentials*
+*secret*
+*token*
+*.keychain
+id_rsa*
+google_tokens/
+.netrc
+.npmrc
+
+# Ledgers and snapshots describe a REAL agent. They belong in that agent's repo, not here.
+OVERHAUL-LEDGER.md
+00-snapshot.md
+01-inventory.md
+02-gap-ranking.md
+overhaul/
+capabilities/
+
+# Local noise
+.DS_Store
+Thumbs.db
+node_modules/
+*.log
+*.sqlite
+*.db
+.superpowers/
+.claude/settings.local.json
